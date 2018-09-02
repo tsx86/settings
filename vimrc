@@ -489,16 +489,16 @@ nnoremap <leader>m :wincmd _<cr>
 nnoremap <leader>c :close<cr>
 
 " keep this window only 
-nnoremap <leader>ca :only<cr>
+nnoremap <leader>o :only<cr>
 
 " delete current buffer 
 nnoremap <leader>d :bd<cr>
 
-" delete all buffers 
-nnoremap <leader>da :bufdo bd<cr>
+"" delete all buffers 
+"nnoremap <leader>da :bufdo bd<cr>
 
-" force delete all buffers 
-nnoremap <leader>da! :bufdo bd!<cr>
+"" force delete all buffers 
+"nnoremap <leader>da! :bufdo bd!<cr>
 
 " delete all buffers except the current one
 nnoremap <leader>do :BufOnly<cr>
